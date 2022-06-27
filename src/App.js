@@ -1,9 +1,11 @@
 import Layout from "./Components/layout";
 import Profile from "./Components/profile";
+import  {ResetCSS } from "./global/resetCSS"
 
 function App() {
   return(
     <main>
+      <ResetCSS />
       <Layout >
         <Profile />
         <div>Repositories</div>
