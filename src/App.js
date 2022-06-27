@@ -1,5 +1,6 @@
 import Layout from "./Components/layout";
 import Profile from "./Components/profile";
+import Repositories from "./Components/repos";
 import  {ResetCSS } from "./global/resetCSS"
 
 function App() {
@@ -8,8 +9,7 @@ function App() {
       <ResetCSS />
       <Layout >
         <Profile />
-        <div>Repositories</div>
-        <div>Starred</div>
+        <Repositories />
       </Layout>
 
     </main>
