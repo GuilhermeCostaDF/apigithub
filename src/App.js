@@ -15,7 +15,7 @@ function App() {
             <span>10</span>
           </div>
           <div>
-            <h4>Starreds</h4>
+            <h4>Starred</h4>
             <span>10</span>
           </div>
           <div>
