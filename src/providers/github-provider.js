@@ -17,7 +17,7 @@ const GithubProvider = ( {children} ) =>  {
     user: {
       login: undefined,
       name: 'Guilherme Costa',
-      publicUrl: undefined,
+      html_url: undefined,
       company: undefined,
       location: undefined,
       bio: undefined,
