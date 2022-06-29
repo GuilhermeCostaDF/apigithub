@@ -1,61 +1,56 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
-export const Wrapper = styled.div `
+export const Wrapper = styled.div`
     display: flex;
-    align-items: flex-start;
+    align-items:flex-start;
 `;
-
-export const WrapperInfosUser = styled.div `
+export const WrapperInfoUsers = styled.div`
     display: flex;
+    align-items:flex-start;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: space-between;
-    height: 200px;
-    margin-left: 8px;
-    width: 30%;
-    h1 {
-        font-size: 32px;
+    height: 12.5rem;
+    margin-left:0.625rem;
+    h1{
+        font-size: 2rem;
         font-weight: bold;
     }
-
     h3{
-        font-size: 18px;
+        font-size: 1.125rem;
+        font-weight: bold;
     }
 
     h4{
-        font-size: 16px;
-    }
-`;
-
-export const WrapperStatusCount = styled.div `
-    display: flex;
-    align-items: center;
-    text-align: center;
-    div {
-        margin-right: 30px;
-    }
-
-`;
-
-export const WrapperUserName = styled.div `
-    display: flex;
-    align-items: center;
-    margin-top: 8px;
-    
-    h3 {
-        margin-right: 8px;
-    }
-    a {
-        color: purple;
+        font-size: 1rem;
         font-weight: bold;
-        font-size: 18px;
-        text-decoration: none;
     }
 `;
 
-export const WrapperImg = styled.img `
+export const WrapperStatusCount = styled.div`
+    display: flex;
+    align-items:center;
+    div{
+        margin: 0.5rem;
+        text-align: center;
+    }
+    
+`;
+export const WrapperUserName = styled.div`
+    display: flex;
+    align-items:center;
+    margin-top: 0.5rem;
+    h3{
+        margin-right: 0.5rem;
+    }
+    a{
+        text-decoration: none;
+        color: turquoise;
+        font-weight: 700;
+        font-size: 1.125rem;
+    }
+`;
+export const WrapperImage = styled.img`
     border-radius: 50%;
-    width:200px;
-    height: 200px;
-    margin: 8px;
+    width: 12.5rem;
+    margin: 0.625rem;
 `;

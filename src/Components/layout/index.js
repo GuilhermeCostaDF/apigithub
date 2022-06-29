@@ -1,16 +1,18 @@
-import React from "react";
-import * as S from './styled'
+import React from 'react'
 import Header from '../header'
+import * as Estilo from './styled'
+import useGithub from '../../hooks/github-hooks'
 
-function Layout({ children }) {
-    return (
-        <S.WrapperLayout>
+function Layout({children}){
 
-            <Header />
+    
+    return(
+        <Estilo.WrapperLayout>
+            <Header/>
             {children}
-
-        </S.WrapperLayout>
+           
+        </Estilo.WrapperLayout>
     )
 }
 
-export default Layout;
+export default Layout

@@ -1,16 +1,16 @@
-import React from 'react'
+import * as Estilo from './styled'
 
-export default function RepositoryItem({name, linkToRepo, fullName}) {
-  return (
-    <div>
-        <h2>{name}</h2>
-        <h4>Nome completo: </h4>
-        <a 
-            href= {linkToRepo} 
-            target="_blank" 
-            rel="noreferrer">
-                {fullName} 
-        </a>
-    </div>
-  )
+const RepositoryItem = ({name, linkToRepos, fullName})=>{
+    return(
+        <Estilo.Wrapper>
+            <Estilo.WrapperTitle>{name}</Estilo.WrapperTitle>
+        
+        <Estilo.WrapperFullName>full name</Estilo.WrapperFullName>
+        <Estilo.WrapperLink href= {linkToRepos} target="_blank" rel="noreferrer">
+            {fullName}
+        </Estilo.WrapperLink>
+        </Estilo.Wrapper>
+    )
 }
+
+export default RepositoryItem
